@@ -8,6 +8,7 @@ export default createGlobalStyle`
     }
     body {
         background-color:${({theme}) => theme.colors.background};
+        overflow:hidden;
     }
     #root > div > h1{
         text-align:center;
@@ -18,4 +19,5 @@ export default createGlobalStyle`
             color:${({theme}) => theme.colors.text.h4};
         }
     }
+    
 `

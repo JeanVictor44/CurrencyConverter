@@ -37,10 +37,10 @@ const Converter = () => {
         convertCurrency()
     }, [firstValueCurrency,firstCurrencyCode,secondCurrencyCode])
 
-    if(!currencyOptions.supported_codes[0][0]) {
+   /*  if(!currencyOptions.supported_codes[0][0]) {
         return <h1>Carregando...</h1>
     }
-    
+     */
 
     return (
         <Container>
